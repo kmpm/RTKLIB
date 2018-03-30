@@ -6,4 +6,5 @@ install_headers('vt.h')
 executable('rtkrcv', rtkrcv_sources,
 	include_directories : inc,
 	link_with: rtklib,
+	install: true,
 	dependencies: core_deps)
