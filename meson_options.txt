@@ -1,0 +1,8 @@
+
+
+
+option('with-gui', type: 'boolean', value: false, description: 'build GUI application')
+option('with-cli', type: 'boolean', value: true, description: 'build CLI application')
+
+#option('with-str2str', type: 'boolean', value: true, description: 'build str2str')
+#option('with-rtkrcv', type: 'boolean', value: true, description: 'build rtkrcv')

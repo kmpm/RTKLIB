@@ -1,8 +1,6 @@
 
-if get_option('with-rtkrcv')
+if get_option('with-cli')
     subdir('rtkrcv')
-endif
-if get_option('with-str2str')
     subdir('str2str')
 endif
 

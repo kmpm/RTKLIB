@@ -15,3 +15,7 @@ core_deps = [cc.find_library('m', required: false),
 subdir('src')
 subdir('app')
 
+
+
+
+install_subdir('data', install_dir : join_paths(get_option('prefix'), get_option('datadir'), 'rtklib'))
