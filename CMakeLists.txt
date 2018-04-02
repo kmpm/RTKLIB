@@ -53,5 +53,6 @@ add_library(rtklib_obj OBJECT ${RTKLIB_SRC})
 #     pthread m rt
 # )
 
-
 add_subdirectory(app)
+
+install(DIRECTORY data/ DESTINATION "share/${PROJECT_NAME}")
